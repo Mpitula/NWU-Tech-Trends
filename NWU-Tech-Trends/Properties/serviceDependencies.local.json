@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ServiceLinker/locations/southafricanorth/connectors/zaazralonempitula37460366.database.windo_8BF68E20FE",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/zaazralonempitula37460366/databases/Alonempitula37460366",
+      "type": "mssql.azure",
+      "connectionId": "zaazralonempitula37460366.database.windows.net"
+    }
+  }
+}

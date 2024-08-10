@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "zaazralonempitula37460366.database.windows.net"
+    }
+  }
+}
