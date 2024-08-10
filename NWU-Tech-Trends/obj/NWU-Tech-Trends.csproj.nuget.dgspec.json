@@ -80,10 +80,6 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
-            "Model": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.7.0, )"
