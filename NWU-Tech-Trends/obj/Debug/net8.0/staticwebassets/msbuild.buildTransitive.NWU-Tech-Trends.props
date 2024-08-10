@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\NWU-Tech-Trends.props" />
+</Project>
