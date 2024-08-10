@@ -46,6 +46,37 @@
           }
         }
       },
+      "DatabaseV2/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.1.3"
+        },
+        "compile": {
+          "lib/net461/DatabaseV2.dll": {}
+        },
+        "runtime": {
+          "lib/net461/DatabaseV2.dll": {}
+        }
+      },
+      "EntityFramework/6.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "related": ".SqlServer.xml;.xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1333,6 +1364,18 @@
           }
         }
       },
+      "Model/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DatabaseV2": "1.0.0"
+        },
+        "compile": {
+          "lib/net461/Model.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Model.dll": {}
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -2083,6 +2126,48 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "DatabaseV2/1.0.0": {
+      "sha512": "fOr8FrjQFyQODGlf1g+qSQ535YGojpmcpYL8E8OnjxVN/cT+71z8xj7oo4y3oTlZUeB3tloPHlLQwA5FwDZ9Dw==",
+      "type": "package",
+      "path": "databasev2/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "databasev2.1.0.0.nupkg.sha512",
+        "databasev2.nuspec",
+        "lib/net461/DatabaseV2.dll"
+      ]
+    },
+    "EntityFramework/6.1.3": {
+      "sha512": "2xzFHAF3VVdmTR3//MygtQpwfbDjeaq+nQwCcokLzen7MKHOojPaxNPQPa4diHY1QtcR7zlHAJHNRqPB7W2Syw==",
+      "type": "package",
+      "path": "entityframework/6.1.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/App.config.transform",
+        "content/Web.config.transform",
+        "entityframework.6.1.3.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3989,6 +4074,18 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Model/1.0.0": {
+      "sha512": "KGBZF6rWoduypOSGRq65JNrBswIyTlc2Yva+rqCBqx9ZwLAeHV9MQPlmfHZuhcF4E91U3kckPZAyfme/WkFjgQ==",
+      "type": "package",
+      "path": "model/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Model.dll",
+        "model.1.0.0.nupkg.sha512",
+        "model.nuspec"
+      ]
+    },
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -5211,6 +5308,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
+      "Model >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.7.0"
     ]
   },
@@ -5294,6 +5392,10 @@
             "target": "Package",
             "version": "[8.0.7, )"
           },
+          "Model": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.7.0, )"
@@ -5321,5 +5423,37 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DatabaseV2 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "DatabaseV2",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 6.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Model 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Model",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
