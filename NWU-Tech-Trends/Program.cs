@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using NWU_Tech_Trends.Models;
 using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
@@ -22,7 +23,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=ConnectionStrings:Password=Pom3gr@nate;Persist Security Info=True;User ID=CMPG323-37460366;Initial Catalog=Alonempitula37460366;Data Source=zaazralonempitula37460366.database.windows.net"));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("ConnStr"));
 builder.Services.AddControllers();
 
 // For Identity  
