@@ -141,4 +141,4 @@ C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU-Tech-Trends\obj\Debug
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU-Tech-Trends\obj\Debug\net8.0\NWU-Tech-Trends.pdb
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU-Tech-Trends\obj\Debug\net8.0\NWU-Tech-Trends.genruntimeconfig.cache
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU-Tech-Trends\obj\Debug\net8.0\ref\NWU-Tech-Trends.dll
-C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU-Tech-Trends\obj\Debug\net8.0\NWU-Tech.FA739CBF.Up2Date
+C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU-Tech-Trends\obj\Debug\net8.0\NWU-Tech-Trends.csproj.CopyComplete
