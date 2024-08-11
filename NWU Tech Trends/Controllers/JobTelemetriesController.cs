@@ -104,5 +104,24 @@ namespace NWU_Tech_Trends.Controllers
         {
             return _context.JobTelemetries.Any(e => e.Id == id);
         }
+
+        [HttpGet("api/Getsavings/{clientId}")]
+        public async Task<ActionResult<IEnumerable<JobTelemetry>>> GetClientJobTelemetry(Guid clientId)
+        {
+            var jobTelemetry = await _context.JobTelemetries.FindAsync(clientId);
+            
+
+            return Ok(jobTelemetry);
+        }
+
+        [HttpGet("api/getsavings{productId}")]
+        public async Task<ActionResult<IEnumerable<JobTelemetry>>> GetProductJobTelemetry(Guid productId)
+        {
+            var jobTelemetry = await _context.JobTelemetries.FindAsync(productId);
+            
+            
+
+            return Ok(jobTelemetry);
+        }
     }
 }
