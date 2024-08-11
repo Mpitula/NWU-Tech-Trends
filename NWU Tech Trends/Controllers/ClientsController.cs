@@ -104,7 +104,7 @@ namespace NWU_Tech_Trends.Controllers
         public async Task<IActionResult> DeleteClient(Guid id)
         {
             var client = await _context.Clients.FindAsync(id);
-            if (client == null)
+            if (client == null || !ClientExists(id))
             {
                 return NotFound();
             }

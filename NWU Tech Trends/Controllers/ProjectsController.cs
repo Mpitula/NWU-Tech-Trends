@@ -90,7 +90,7 @@ namespace NWU_Tech_Trends.Controllers
         public async Task<IActionResult> DeleteProject(Guid id)
         {
             var project = await _context.Projects.FindAsync(id);
-            if (project == null)
+            if (project == null || !ProjectExists(id))
             {
                 return NotFound();
             }

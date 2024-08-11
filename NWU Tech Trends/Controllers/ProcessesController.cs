@@ -90,7 +90,7 @@ namespace NWU_Tech_Trends.Controllers
         public async Task<IActionResult> DeleteProcess(Guid id)
         {
             var process = await _context.Processes.FindAsync(id);
-            if (process == null)
+            if (process == null || !ProcessExists(id))
             {
                 return NotFound();
             }
