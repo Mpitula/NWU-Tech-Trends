@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NWU Tech Trends.props" />
+</Project>
