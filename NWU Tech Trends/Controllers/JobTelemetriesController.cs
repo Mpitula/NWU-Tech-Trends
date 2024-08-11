@@ -104,7 +104,5 @@ namespace NWU_Tech_Trends.Controllers
         {
             return _context.JobTelemetries.Any(e => e.Id == id);
         }
-
-
     }
 }
