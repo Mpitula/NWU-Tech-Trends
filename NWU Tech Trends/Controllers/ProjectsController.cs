@@ -101,6 +101,7 @@ namespace NWU_Tech_Trends.Controllers
             return NoContent();
         }
 
+
         private bool ProjectExists(Guid id)
         {
             return _context.Projects.Any(e => e.ProjectId == id);

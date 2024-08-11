@@ -45,7 +45,7 @@ namespace NWU_Tech_Trends.Controllers
 
         // PUT: api/JobTelemetries/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPatch("{id}")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> PutJobTelemetry(int id, JobTelemetry jobTelemetry)
         {
             if (id != jobTelemetry.Id)
