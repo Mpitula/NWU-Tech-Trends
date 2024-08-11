@@ -136,9 +136,9 @@ C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NWU Tech Trends.props
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\scopedcss\bundle\NWU Tech Trends.styles.css
-C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\NWU Tech.A33E65EE.Up2Date
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\NWU Tech Trends.dll
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\refint\NWU Tech Trends.dll
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\NWU Tech Trends.pdb
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\NWU Tech Trends.genruntimeconfig.cache
 C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\ref\NWU Tech Trends.dll
+C:\Users\aussc\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Debug\net8.0\NWU Tech Trends.csproj.CopyComplete
