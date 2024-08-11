@@ -1,7 +1,8 @@
 # CMPG323-Project-2-37460366
 
 ## Project Overview
-This project is part of the CMPG 323 module, where we are developing a CRUD RESTful API connected to a database, and deploying it on Azure. The application is designed to manage <>.
+This project is part of the CMPG 323 module, where we are developing a CRUD RESTful API connected to a database, and deploying it on Azure. The application is designed to manage Telementries.
+Retrieves all & ID, Delete,Add and Update Telementries.
 
 ## Objectives
 - Develop a RESTful API using C# and ASP.NET Core
@@ -20,11 +21,8 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 2. Open the project in Visual Studio.
 3. Restore NuGet packages.
-4. Update the database connection string in `appsettings.json`.
 5. Run the project.
 
-## Usage
-<>
 
 ## Progress
 The project is being updated iteratively. Please take a look at the commit history for detailed progress updates.
