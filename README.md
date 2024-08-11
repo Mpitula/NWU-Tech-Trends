@@ -22,14 +22,15 @@ To set up the project locally, follow these steps:
 2. Open the project in Visual Studio.
 3. Restore NuGet packages.
 5. Run the project.
-
+## Reference List
+https://nwuac-my.sharepoint.com/:w:/g/personal/37460366_mynwu_ac_za/EZ4UzahEa2hEnn3GarqLRz8BDXtR0aJ97UI-qzkZRgGwgw?e=KOFjNR
 
 ## Progress
 The project is being updated iteratively. Please take a look at the commit history for detailed progress updates.
 
 
 ## Contact
-Please feel free to contact Mr A Mpitula at Alonemapitlula@gmail.com for any questions.
+Please feel free to contact Mr A. Mpitula at Alonemapitlula@gmail.com for any questions.
 
 
 
