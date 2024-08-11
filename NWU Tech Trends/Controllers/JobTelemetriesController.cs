@@ -39,7 +39,7 @@ namespace NWU_Tech_Trends.Controllers
             {
                 return NotFound();
             }
-
+           
             return jobTelemetry;
         }
 
