@@ -100,12 +100,11 @@ namespace NWU_Tech_Trends.Controllers
 
             return NoContent();
         }
-
         private bool JobTelemetryExists(int id)
         {
             return _context.JobTelemetries.Any(e => e.Id == id);
         }
 
-        
+
     }
 }
