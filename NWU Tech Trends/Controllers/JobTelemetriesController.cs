@@ -45,7 +45,7 @@ namespace NWU_Tech_Trends.Controllers
 
         // PUT: api/JobTelemetries/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPatch("{id}")]
         public async Task<IActionResult> PutJobTelemetry(int id, JobTelemetry jobTelemetry)
         {
             if (id != jobTelemetry.Id)
@@ -90,7 +90,7 @@ namespace NWU_Tech_Trends.Controllers
         public async Task<IActionResult> DeleteJobTelemetry(int id)
         {
             var jobTelemetry = await _context.JobTelemetries.FindAsync(id);
-            if (jobTelemetry == null)
+            if (jobTelemetry == null || !JobTelemetryExists(id))
             {
                 return NotFound();
             }
@@ -105,5 +105,7 @@ namespace NWU_Tech_Trends.Controllers
         {
             return _context.JobTelemetries.Any(e => e.Id == id);
         }
+
+        
     }
 }
