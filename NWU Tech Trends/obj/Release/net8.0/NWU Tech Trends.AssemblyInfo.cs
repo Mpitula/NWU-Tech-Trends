@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NWU Tech Trends")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ed5a5469d032d379f19a5e814f421d8b97a0e97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+183c2fdce08584a35c22d924f21e57b6ea40b2fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("NWU Tech Trends")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NWU Tech Trends")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
