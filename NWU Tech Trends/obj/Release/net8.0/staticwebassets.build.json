@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qYYJBMiRLrWxveBjcHUUwRktqXUvvDPt8CB8GiXPA44=",
+  "Hash": "6N5zuqZ6sRAEMd5qP9pgg5lAxHAefyLNdzU/5BRfp6o=",
   "Source": "NWU Tech Trends",
   "BasePath": "_content/NWU Tech Trends",
   "Mode": "Default",
@@ -47,10 +47,10 @@
       "OriginalItemSpec": "C:\\Users\\SL301\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.7\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\Release\\net8.0\\scopedcss\\bundle\\NWU Tech Trends.styles.css",
+      "Identity": "C:\\Users\\SL301\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\Release\\net8.0\\scopedcss\\bundle\\NWU Tech Trends.styles.css",
       "SourceId": "NWU Tech Trends",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\SL301\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/NWU Tech Trends",
       "RelativePath": "NWU Tech Trends.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\Release\\net8.0\\scopedcss\\bundle\\NWU Tech Trends.styles.css"
+      "OriginalItemSpec": "C:\\Users\\SL301\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\Release\\net8.0\\scopedcss\\bundle\\NWU Tech Trends.styles.css"
     }
   ]
 }

@@ -105,23 +105,50 @@ namespace NWU_Tech_Trends.Controllers
             return _context.JobTelemetries.Any(e => e.Id == id);
         }
 
-        [HttpGet("api/Getsavings/{clientId}")]
-        public async Task<ActionResult<IEnumerable<JobTelemetry>>> GetClientJobTelemetry(Guid clientId)
+        [HttpGet("GetSavings/ByProject")]
+        public IActionResult GetSavingsByProject(Guid projectId, DateTime startDate, DateTime endDate)
         {
-            var jobTelemetry = await _context.JobTelemetries.FindAsync(clientId);
-            
+            var jobTelemetries = _context.JobTelemetries
+                .Where(jt => _context.Processes
+                    .Any(p => p.ProcessId.ToString() == jt.ProccesId && p.ProjectId == projectId)
+                    && jt.EntryDate >= startDate
+                    && jt.EntryDate <= endDate)
+                .ToList();
 
-            return Ok(jobTelemetry);
+            var totalTimeSaved = jobTelemetries.Sum(jt => jt.HumanTime ?? 0);
+            // Assuming you have a field for CostSaved
+            //var totalCostSaved = jobTelemetries.Sum(jt => jt.CostSaved ?? 0);
+
+            var result = new
+            {
+                TotalTimeSaved = totalTimeSaved,
+                // TotalCostSaved = totalCostSaved
+            };
+
+            return Ok(result);
         }
-
-        [HttpGet("api/getsavings{productId}")]
-        public async Task<ActionResult<IEnumerable<JobTelemetry>>> GetProductJobTelemetry(Guid productId)
+        [HttpGet("GetSavings/ByClient")]
+        public IActionResult GetSavingsByClient(Guid clientId, DateTime startDate, DateTime endDate)
         {
-            var jobTelemetry = await _context.JobTelemetries.FindAsync(productId);
-            
-            
+            var jobTelemetries = _context.JobTelemetries
+                .Where(jt => _context.Processes
+                    .Any(p => p.ProcessId.ToString() == jt.ProccesId &&
+                              _context.Projects.Any(proj => proj.ProjectId == p.ProjectId && proj.ClientId == clientId))
+                    && jt.EntryDate >= startDate
+                    && jt.EntryDate <= endDate)
+                .ToList();
 
-            return Ok(jobTelemetry);
+            var totalTimeSaved = jobTelemetries.Sum(jt => jt.HumanTime ?? 0);
+            // Assuming you have a field for CostSaved
+            //var totalCostSaved = jobTelemetries.Sum(jt => jt.CostSaved ?? 0);
+
+            var result = new
+            {
+                TotalTimeSaved = totalTimeSaved,
+                //TotalCostSaved = totalCostSaved
+            };
+
+            return Ok(result);
         }
     }
 }
