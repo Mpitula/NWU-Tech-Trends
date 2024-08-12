@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>NWU_Tech_Trends</RootNamespace>
+    <UserSecretsId>0ff4d8ec-82eb-463e-acc0-fcce3eebfae3</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
