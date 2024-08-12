@@ -118,7 +118,6 @@ namespace NWU_Tech_Trends.Controllers
             var totalTimeSaved = jobTelemetries.Sum(jt => jt.HumanTime ?? 0);
             // Assuming you have a field for CostSaved
             //var totalCostSaved = jobTelemetries.Sum(jt => jt.CostSaved ?? 0);
-
             var result = new
             {
                 TotalTimeSaved = totalTimeSaved,
