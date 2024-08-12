@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace NWU_Tech_Trends.Models;
 
-public partial class Alonempitula37460366Context : DbContext
+public partial class Alonempitula37460366Context: DbContext
 {
     public Alonempitula37460366Context()
     {

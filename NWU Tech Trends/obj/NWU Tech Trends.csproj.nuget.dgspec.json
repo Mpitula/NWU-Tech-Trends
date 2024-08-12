@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aussc\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj": {}
+    "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aussc\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj": {
+    "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aussc\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj",
+        "projectUniqueName": "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj",
         "projectName": "NWU Tech Trends",
-        "projectPath": "C:\\Users\\aussc\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj",
-        "packagesPath": "C:\\Users\\aussc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aussc\\source\\repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\",
+        "projectPath": "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\NWU Tech Trends.csproj",
+        "packagesPath": "C:\\Users\\SL301\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SL301\\Source\\Repos\\CMPG323-Project-2-37460366\\NWU Tech Trends\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aussc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SL301\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication": {
+            "Microsoft.AspNetCore.Authentication.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Core": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
@@ -116,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
