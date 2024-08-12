@@ -542,3 +542,4 @@ C:\Users\SL301\Source\Repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Relea
 C:\Users\SL301\Source\Repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\NWU Tech Trends.pdb
 C:\Users\SL301\Source\Repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\NWU Tech Trends.genruntimeconfig.cache
 C:\Users\SL301\Source\Repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\ref\NWU Tech Trends.dll
+C:\Users\SL301\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\bin\Release\net8.0\appsettings.json

@@ -1,5 +1,6 @@
 C:\Users\SL301\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\PubTmp\Out\NWU Tech Trends.exe
 C:\Users\SL301\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\SL301\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\PubTmp\Out\appsettings.json
 C:\Users\SL301\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\PubTmp\Out\NWU Tech Trends.dll
 C:\Users\SL301\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\PubTmp\Out\NWU Tech Trends.runtimeconfig.json
 C:\Users\SL301\source\repos\CMPG323-Project-2-37460366\NWU Tech Trends\obj\Release\net8.0\PubTmp\Out\NWU Tech Trends.pdb
