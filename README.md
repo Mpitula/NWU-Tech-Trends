@@ -25,6 +25,13 @@ To set up the project locally, follow these steps:
 ## Reference List
 https://nwuac-my.sharepoint.com/:w:/g/personal/37460366_mynwu_ac_za/EZ4UzahEa2hEnn3GarqLRz8BDXtR0aJ97UI-qzkZRgGwgw?e=KOFjNR
 
+**Reference Lis**
+1. Microsoft (n.d.) ASP.NET Core dependency injection. Available at: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection (Accessed: 11 August 2024). 
+2. Microsoft (n.d.) Entity Framework Core: Getting Started. Available at: https://learn.microsoft.com/en-us/ef/core/get-started/ (Accessed: 11 August 2024). 
+3. Microsoft (n.d.) Create a Web API with ASP.NET Core. Available at: https://learn.microsoft.com/en-us/aspnet/core/web-api/ (Accessed: 11 August 2024). 
+4. Microsoft (n.d.) Routing to Controller Actions in ASP.NET Core. Available at: https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/routing (Accessed: 11 August 2024). 
+5. Microsoft (n.d.) ASP.NET Core Model Binding. Available at: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding (Accessed: 11 August 2024). 
+
 ## Progress
 The project is being updated iteratively. Please take a look at the commit history for detailed progress updates.
 
