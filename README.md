@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project is part of the CMPG 323 module, where we are developing a CRUD RESTful API connected to a database, and deploying it on Azure. The application is designed to manage Telementries.
-Retrieves all & ID, Delete,Add and Update Telementries.
+Retrieves all & ID, Delete, Add and Update Telementries.
 
 ## Objectives
 - Develop a RESTful API using C# and ASP.NET Core
